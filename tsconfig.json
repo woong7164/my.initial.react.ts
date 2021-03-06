@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "$SRC/*": ["src/*"],
+      "$VIEW/*": ["src/views/*"],
+      "$APPS/*": ["src/views/apps/*"],
+      "$LAYOUT/*": ["src/views/layout/*"],
+      "$CONST/*": ["src/constants/*"],
+      "$ROUTE/*": ["src/route/*"],
+      "$STYLE/*": ["src/asset/styles/*"],
+      "$UTIL/*": ["src/util/*"],
+      "$STORE/*": ["src/store/*"],
+      "$API/*": ["src/api/*"],
+      "$SHARED/*": ["src/views/shared/*"],
+      "$URL/*": ["src/api/url/*"]
+    }
+  }
+}
